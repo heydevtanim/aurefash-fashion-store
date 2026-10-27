@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3f0e9"/><stop offset="1" stop-color="#ded8cd"/></linearGradient>
+    <linearGradient id="leather" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#78563f"/><stop offset=".5" stop-color="#493126"/><stop offset="1" stop-color="#2d211b"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dfc28c"/><stop offset=".55" stop-color="#b69a6a"/><stop offset="1" stop-color="#92744d"/></linearGradient>
+    <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.7"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <ellipse cx="406" cy="567" rx="270" ry="205" fill="#4f4439" opacity=".16" filter="url(#shadow)"/>
+  <path d="M187 246 C324 169 527 194 599 325 C673 460 604 646 459 715 C345 769 231 735 176 657" fill="none" stroke="#30251e" stroke-width="87" stroke-linecap="round" opacity=".15" transform="translate(3 9)"/>
+  <path d="M182 231 C321 155 524 180 596 311 C670 446 601 632 456 701 C342 755 228 721 173 643" fill="none" stroke="url(#leather)" stroke-width="74" stroke-linecap="round"/>
+  <path d="M193 218 C332 157 512 187 575 316 C633 435 572 603 447 667" fill="none" stroke="#b69472" stroke-width="3" opacity=".55" stroke-dasharray="5 10"/>
+  <path d="M166 609 C164 578 188 552 219 551 L279 548 L289 714 L229 717 C198 718 171 694 169 663Z" fill="url(#leather)"/>
+  <path d="M201 583 L254 580 L261 683 L208 685Z" fill="none" stroke="url(#gold)" stroke-width="11"/>
+  <path d="M225 587 L229 678" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M280 601 L374 595" stroke="#221915" stroke-width="5" opacity=".7"/>
+  <circle cx="319" cy="598" r="7" fill="#d7c4a3"/><circle cx="349" cy="596" r="7" fill="#d7c4a3"/>
+  <circle cx="379" cy="594" r="7" fill="#d7c4a3"/><circle cx="409" cy="591" r="7" fill="#d7c4a3"/>
+  <text x="400" y="895" text-anchor="middle" font-family="Georgia,serif" font-size="23" letter-spacing="7" fill="#68645e">AUREFASH STUDIO</text>
+</svg>
